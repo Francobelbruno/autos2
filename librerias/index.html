@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autos de Fórmula 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="text-center p-3 titulo">Mundo F1</h1>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarF1" aria-controls="navbarF1" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse show" id="navbarF1">
+          <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pilotos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Escuderías</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-4">
+    <h2 class="text-center mb-4">Galería de Autos</h2>
+
+<!-- Carrusel de todos los autos de la parrilla F1 2025 -->
+<div id="carouselParrilla" class="carousel slide my-4" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="URL_IMAGEN_FERRARI_SF25.jpg" class="d-block w-100" alt="Ferrari SF-25">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Ferrari SF-25</h5>
+        <p>Lewis Hamilton & Charles Leclerc</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="URL_IMAGEN_RED_BULL_RB21.jpg" class="d-block w-100" alt="Red Bull RB21">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Red Bull RB21</h5>
+        <p>Max Verstappen & Liam Lawson</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="URL_IMAGEN_MCLAREN_MCL39.jpg" class="d-block w-100" alt="McLaren MCL39">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>McLaren MCL39</h5>
+        <p>Lando Norris & Oscar Piastri</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="URL_IMAGEN_MERCEDES_W16.jpg" class="d-block w-100" alt="Mercedes W16">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Mercedes W16</h5>
+        <p>George Russell & Kimi Antonelli</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="URL_IMAGEN_ASTON_AMR25.jpg" class="d-block w-100" alt="Aston Martin AMR25">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Aston Martin AMR25</h5>
+        <p>Fernando Alonso & Lance Stroll</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="URL_IMAGEN_ALPINE_A525.jpg" class="d-block w-100" alt="Alpine A525">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Alpine A525</h5>
+        <p>Pierre Gasly & Jack Doohan</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="URL_IMAGEN_HAAS_VF25.jpg" class="d-block w-100" alt="Haas VF-25">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Haas VF-25</h5>
+        <p>Esteban Ocon & Oliver Bearman</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="URL_IMAGEN_RACING_BULLS_VCARB02.jpg" class="d-block w-100" alt="Racing Bulls VCARB 02">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Racing Bulls VCARB 02</h5>
+        <p>Isack Hadjar & Yuki Tsunoda</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="URL_IMAGEN_WILLIAMS_FW47.jpg" class="d-block w-100" alt="Williams FW47">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Williams FW47</h5>
+        <p>Alexander Albon & Carlos Sainz Jr.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="URL_IMAGEN_KICK_SAUBER_C45.jpg" class="d-block w-100" alt="Kick Sauber C45">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Kick Sauber C45</h5>
+        <p>Nico Hülkenberg & Gabriel Bortoleto</p>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselParrilla" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselParrilla" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+
+    <!-- Tabla de escuderías -->
+    <h2 class="mt-5">Escuderías Principales</h2>
+    <table class="table table-striped table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Escudería</th>
+          <th>País</th>
+          <th>Piloto Principal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Red Bull Racing</td>
+          <td>Austria</td>
+          <td>Franco Belbruno</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Mercedes</td>
+          <td>Alemania</td>
+          <td>Lewis Hamilton</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>Ferrari</td>
+          <td>Italia</td>
+          <td>Charles Leclerc</td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td>Williams</td>
+          <td>Reino Unido</td>
+          <td>Franco Colapinto</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer class="text-center p-3 bg-dark text-light">
+    <p>&copy; 2025 Mundo F1 - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
