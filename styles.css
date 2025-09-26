@@ -23,6 +23,10 @@ table th, table td {
   object-fit: cover;
 }
 
+.carousel-item{
+
+}
+
 .carousel-parrilla .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1rem;
@@ -32,3 +36,40 @@ table th, table td {
   max-height: 500px; /* ajustar altura máxima */
   object-fit: cover;
 }
+
+
+
+button{
+  background-color: yellow;
+}
+
+.botonAceptar{
+  background-color: green;
+  color: white;
+}
+
+.botonAceptar:hover{
+  background-color: darkturquoise;
+  font-size: 100px;
+}
+
+#botonCancelar{
+  background-color: red;
+  color: white;
+}
+
+button:focus{
+  background-color: chartreuse;
+  font-size: 110px;
+}
+
+a {
+  padding: 5px;
+}
+
+a:hover {
+  background: red;
+  color: white;
+  text-decoration: none;
+}
+
